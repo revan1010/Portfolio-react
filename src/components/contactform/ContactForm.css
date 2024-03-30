@@ -1,0 +1,197 @@
+.contactForm {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.contact-head {
+  margin: 0;
+  font-size: 90px;
+  font-family: Unbounded;
+  color: #188f8969;
+  font-weight: 900;
+  text-align: center;
+}
+.contact-head h1 {
+  margin: 0;
+  line-height: 123px;
+}
+.form-Container {
+  width: 900px;
+  height: 600px;
+  background-color: #188f8961;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.info-part {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.info-form {
+  display: flex;
+  align-items: center;
+}
+.data-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5px;
+}
+.data-form h3 {
+  margin: 0;
+}
+
+.data-form p {
+  margin: 0;
+  margin-top: 5px;
+}
+.name-email {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.form-input-part {
+  flex: 2;
+  padding: 20px;
+}
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.group label {
+  font-size: 20px;
+}
+.group input {
+  width: 200px;
+  height: 30px;
+  border: 4px solid #0f292f;
+  background-color: #289c96;
+}
+.message textarea {
+  width: 100%;
+  height: 200px;
+  border: 4px solid #0f292f;
+  background-color: #289c96;
+}
+.btn-part {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.btn-part button {
+  font-size: 20px;
+  background-color: #0f292f;
+  color: #0fe4d9;
+  padding: 7px;
+  border: 2px solid #00848b;
+}
+@media (max-width: 425px) {
+  .contactForm {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-head {
+    margin: 0;
+    font-size: 30px;
+    font-family: Unbounded;
+    color: #188f8969;
+    font-weight: 900;
+    text-align: center;
+  }
+  .contact-head h1 {
+    margin: 0;
+    line-height: unset;
+  }
+  .form-Container {
+    width: 300px;
+    height: 650px;
+    background-color: #188f8961;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .info-part {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .info-form {
+    display: flex;
+    align-items: center;
+  }
+  .phonee {
+    margin-right: 20px;
+  }
+  .data-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2px;
+  }
+  .data-form h3 {
+    margin: 0;
+    font-size: 15px;
+  }
+  .data-form p {
+    margin: 0;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  .name-email {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .form-input-part {
+    flex: 2;
+    padding: 20px;
+  }
+  .message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .group label {
+    font-size: 20px;
+  }
+  .group input {
+    width: 200px;
+    height: 30px;
+    border: 4px solid #0f292f;
+    background-color: #289c96;
+  }
+  .message textarea {
+    width: 100%;
+    height: 200px;
+    border: 4px solid #0f292f;
+    background-color: #289c96;
+  }
+  .btn-part {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  input:focus {
+    outline: none; /* Removes the default outline */
+  }
+  .btn-part button {
+    font-size: 20px;
+    background-color: #0f292f;
+    color: #0fe4d9;
+    padding: 7px;
+    border: 2px solid #00848b;
+  }
+}

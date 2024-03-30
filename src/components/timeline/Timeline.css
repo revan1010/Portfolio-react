@@ -1,0 +1,118 @@
+.time-part {
+  margin-top: 40px;
+}
+
+.timelines {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+.timeline-head {
+  margin: 0;
+  font-size: 90px;
+  font-family: Unbounded;
+  color: #188f8969;
+  font-weight: 900;
+  text-align: center;
+}
+
+.timeline-head h1 {
+  margin: 0;
+}
+.vertical-timeline {
+  width: 95%;
+  max-width: 700px;
+  margin: 0 auto;
+  position: relative;
+  padding: 2em 0;
+}
+.vertical-timeline--two-columns
+  .vertical-timeline-element-content
+  .vertical-timeline-element-date {
+  position: absolute;
+  width: 100%;
+  left: 129%;
+  top: 6px;
+  font-size: 16px;
+  font-size: 1rem;
+}
+.vertical-timeline--two-columns
+  .vertical-timeline-element.vertical-timeline-element--right
+  .vertical-timeline-element-content
+  .vertical-timeline-element-date,
+.vertical-timeline--two-columns
+  .vertical-timeline-element:nth-child(even):not(
+    .vertical-timeline-element--left
+  )
+  .vertical-timeline-element-content
+  .vertical-timeline-element-date {
+  left: auto;
+  right: 129%;
+  text-align: right;
+}
+.vertical-timeline-element-title {
+  text-decoration: underline;
+  padding-bottom: 3px;
+}
+.edutitle {
+  background-color: aqua;
+  text-align: center;
+  font-size: 25px;
+  color: #0f292f;
+}
+
+@media (max-width: 1024px) {
+  .vertical-timeline--two-columns
+    .vertical-timeline-element:nth-child(even):not(
+      .vertical-timeline-element--left
+    )
+    .vertical-timeline-element-content
+    .vertical-timeline-element-date {
+    left: auto;
+    right: 7%;
+    text-align: right;
+  }
+  .vertical-timeline--two-columns
+    .vertical-timeline-element-content
+    .vertical-timeline-element-date {
+    position: absolute;
+    width: 100%;
+    left: 79%;
+    top: 6px;
+    font-size: 16px;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .timeline-head {
+    margin: 0;
+    font-size: 60px;
+    font-family: Unbounded;
+    color: #188f8969;
+    font-weight: 900;
+    text-align: end;
+  }
+}
+
+@media (max-width: 425px) {
+  .vertical-timeline--two-columns
+    .vertical-timeline-element-content
+    .vertical-timeline-element-date {
+    position: absolute;
+    width: 100%;
+    left: 59%;
+    top: -9px;
+    font-size: 16px;
+    font-size: 1rem;
+  }
+  .timeline-head {
+    margin: 0;
+    font-size: 30px;
+    font-family: Unbounded;
+    color: #188f8969;
+    font-weight: 900;
+    text-align: end;
+  }
+}

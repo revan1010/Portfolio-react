@@ -1,0 +1,166 @@
+.testmonials {
+  height: 600px;
+  margin: auto;
+}
+.testmo-head {
+  margin: 0;
+  font-size: 90px;
+  font-family: Unbounded;
+  color: #188f8969;
+  font-weight: 900;
+  text-align: center;
+}
+.testmo-head h1 {
+  margin: 0;
+}
+.each-slide-effect {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-size: cover;
+  height: 350px;
+  background-color: #00848b80;
+  margin: 100px;
+  padding: 5px;
+}
+
+.each-slide-effect span {
+  padding: 20px;
+  font-size: 20px;
+
+  text-align: center;
+}
+.box-testi {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: #00848b85;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  top: -65px;
+  left: -60px;
+}
+.testi-head {
+  margin-left: 65px;
+}
+.testi-head h2 {
+  font-size: 35px;
+  margin: 0;
+}
+.testi-head p {
+  margin: 0;
+  font-size: 17px;
+}
+.review-part {
+  font-size: 20px;
+}
+.indicator {
+  cursor: pointer;
+  padding: 5px;
+  text-align: center;
+  border: 2px #0b3b3d solid;
+  color: #0fe4d9;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
+.indicator.active {
+  color: #0b3b3d;
+  background: #0fe4d9;
+}
+@media (max-width: 1024px) {
+  .testmo-head {
+    margin: 0;
+    font-size: 70px;
+    font-family: Unbounded;
+    color: #188f8969;
+    font-weight: 900;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .testmo-head {
+    margin: 0;
+    font-size: 50px;
+    font-family: Unbounded;
+    color: #188f8969;
+    font-weight: 900;
+    text-align: center;
+  }
+}
+
+@media (max-width: 425px) {
+  .testmonials {
+    height: 400px;
+  }
+  .testmo-head {
+    margin: 0;
+    font-size: 25px;
+    font-family: Unbounded;
+    color: #188f8969;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .each-slide-effect {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-size: cover;
+    height: 250px;
+    background-color: #00848b80;
+    margin: 10px;
+    padding: 2px;
+  }
+
+  .each-slide-effect span {
+    padding: 20px;
+    font-size: 10px;
+
+    text-align: center;
+  }
+  .box-testi {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #00848b85;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    top: -10px;
+    left: 0px;
+  }
+  .testi-head {
+    margin-left: 35px;
+  }
+  .testi-head h2 {
+    font-size: 25px;
+    margin: 0;
+  }
+  .testi-head p {
+    margin: 0;
+    font-size: 13px;
+  }
+  .review-part {
+    font-size: 13px;
+  }
+  .indicator {
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+    border: 2px #0b3b3d solid;
+    color: #0fe4d9;
+    font-weight: 600;
+    margin-left: 15px;
+  }
+
+  .indicator.active {
+    color: #0b3b3d;
+    background: #0fe4d9;
+  }
+}

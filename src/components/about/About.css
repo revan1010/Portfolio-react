@@ -1,0 +1,281 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.about-head h1 {
+  margin: 0;
+  font-size: 90px;
+
+  font-family: Unbounded;
+
+  color: #103a38;
+  text-align: center;
+}
+.about-head h1 {
+  margin: 0;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  gap: 110px;
+
+  height: 800px;
+
+  margin: auto 100px;
+  margin-top: 4px;
+}
+.about-image-part {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  /* width: 42%; */
+  padding: 25px;
+  background-color: #0fe4d957;
+}
+.about-image-part img {
+  height: 500px;
+}
+.about-data-part {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.about-info {
+  width: 600px;
+}
+.about-info p {
+  background-color: #184e5059;
+  border: 12px solid #0da9a14d;
+  padding: 20px;
+  font-size: 25px;
+}
+.overlays-about {
+  position: absolute;
+  width: 50px;
+}
+.overlays-about img {
+  width: 87px;
+  height: auto;
+  background-color: #0da9a178;
+  padding: 3px;
+}
+.boxd img {
+  width: 100%;
+  height: auto;
+}
+
+.cpp {
+  top: 501px;
+  left: 327px;
+}
+.js {
+  top: 474px;
+  left: -27px;
+}
+.react {
+  top: 546px;
+  left: 75px;
+}
+.html {
+  top: 560px;
+  left: 212px;
+}
+.type {
+  top: 600px;
+  left: 0px;
+}
+.three {
+  top: 620px;
+  left: 300px;
+}
+.cicular-text {
+  position: absolute;
+  font-size: 30px;
+  background-color: #289c9661;
+  top: 359px;
+  left: 490px;
+  font-weight: 800;
+  font-family: "Unbounded", sans-serif;
+}
+.boxxx {
+  background-color: #184e50;
+  width: 20px;
+  height: 20px;
+}
+.box4 {
+  width: 279px;
+  height: 88px;
+  /* bottom: -752px;
+  left: 29px; */
+  padding: 10px;
+  background-color: #184e50;
+  font-size: 18px;
+}
+
+@media (max-width: 1024px) {
+  .about {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+
+    /* height: 800px; */
+
+    margin: auto 10px;
+  }
+  .about-image-part {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    /* width: 42%; */
+    padding: 17px;
+    background-color: #0fe4d957;
+  }
+  .about-image-part img {
+    height: 400px;
+  }
+  .about-data-part {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .about-info {
+    width: 300px;
+  }
+  .about-info p {
+    background-color: #184e5059;
+    border: 6px solid #0da9a14d;
+    padding: 10px;
+    font-size: 18px;
+  }
+  .overlays-about {
+    position: absolute;
+    width: 50px;
+  }
+  .overlays-about img {
+    width: 45px;
+    height: auto;
+    background-color: #0da9a178;
+    padding: 3px;
+  }
+  .cpp {
+    top: 301px;
+    left: 227px;
+  }
+  .js {
+    top: 374px;
+    left: -27px;
+  }
+  .react {
+    top: 346px;
+    left: 75px;
+  }
+  .html {
+    top: 360px;
+    left: 202px;
+  }
+  .type {
+    top: 300px;
+    left: 0px;
+  }
+  .three {
+    top: 320px;
+    left: 300px;
+  }
+  .cicular-text {
+    position: absolute;
+    font-size: 20px;
+    background-color: #289c9661;
+    top: 409px;
+    left: 60px;
+    font-weight: 800;
+    font-family: "Unbounded", sans-serif;
+  }
+}
+@media (max-width: 425px) {
+  .about-head h1 {
+    margin: 0;
+    font-size: 70px;
+
+    font-family: Unbounded;
+
+    color: #103a38;
+    text-align: end;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    height: 688px;
+
+    margin: auto 1px;
+  }
+  .about-image-part {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: unset;
+    padding: 2px;
+    background-color: unset;
+  }
+  .about-image-part img {
+    height: 276px;
+    padding: 10px;
+    background-color: #0fe4d957;
+  }
+  .about-data-part {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .about-info {
+    width: unset;
+  }
+  .about-info p {
+    background-color: #184e5059;
+    border: 6px solid #0da9a14d;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+  }
+  .overlays-about {
+    position: absolute;
+    width: 30px;
+  }
+  .overlays-about img {
+    width: 40px;
+    height: auto;
+    background-color: #0da9a178;
+    padding: 3px;
+  }
+  .cpp {
+    top: 201px;
+    left: 60px;
+  }
+  .js {
+    top: 224px;
+    left: 100px;
+  }
+  .react {
+    top: 246px;
+    left: 140px;
+  }
+  .html {
+    top: 260px;
+    left: 160px;
+  }
+  .type {
+    top: 250px;
+    left: 200px;
+  }
+  .three {
+    top: 250px;
+    left: 240px;
+  }
+  .cicular-text {
+    display: none;
+  }
+}

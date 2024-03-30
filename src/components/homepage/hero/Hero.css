@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200..900&display=swap");
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  padding-top: 40px;
+  max-width: 1300px;
+  height: 80vh;
+}
+
+.title-part {
+  position: relative;
+  top: -10%;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 5px;
+  margin-left: 15px;
+  color: #fff;
+}
+
+.title-part h1 {
+  margin: 0;
+  font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 100px;
+}
+.title-part h2 {
+  margin: 0;
+  font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 20px;
+
+  color: rgb(255, 255, 255);
+}
+.title-part h3 {
+  font-family: "Unbounded", sans-serif;
+  font-weight: 900;
+  margin-bottom: 2px;
+  font-size: 19px;
+}
+.hero-title {
+  padding-left: 3px;
+  font-size: 22px;
+  text-decoration: underline;
+  text-decoration-color: #cb2d6f;
+}
+.subtitle p {
+  font-family: "Unbounded", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.hero-img {
+  position: relative;
+  top: -10%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img img {
+  /* // margin-top: -390px; */
+
+  width: 350px;
+  border-radius: 600px;
+  border: 10px solid;
+}
+
+.info-list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%; /* Adjust this value as needed */
+  z-index: 1; /* Ensure the info list is below the text content */
+}
+
+.info-list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.info-list ul li {
+  margin-bottom: 20px;
+  background-color: #0b3b3d;
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  border: 1px solid;
+}
+.info-list ul li:nth-child(1) {
+  position: absolute;
+  top: 100px;
+  left: -40px;
+}
+
+.info-list ul li:nth-child(2) {
+  position: absolute;
+  top: 180px;
+  right: -50px;
+}
+@media screen and (max-width: 800px) {
+  .content {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    margin-top: 0px;
+    /* height: 80vh; */
+  }
+  .title-part {
+    top: -42px;
+    width: 100%;
+    padding: 5px;
+    margin-left: 15px;
+    color: #fff;
+    text-align: center;
+  }
+  .title-part h3 {
+    font-size: 16px;
+  }
+  .title-part h1 {
+    font-weight: 800;
+
+    font-size: 60px;
+  }
+  .title-part h2 {
+    font-weight: 700;
+
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+  }
+  .subtitle p {
+    font-family: "Unbounded", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .hero-img {
+    position: relative;
+    top: -42px;
+    margin-top: 57px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-img img {
+    width: 250px;
+    border-radius: 600px;
+    border: 8px solid;
+  }
+  .info-list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    z-index: 1;
+  }
+  .info-list ul li {
+    margin-bottom: 20px;
+    background-color: #0b3b3d;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: 1px solid;
+  }
+  .info-list ul li:nth-child(1) {
+    position: absolute;
+    top: 60px;
+    left: -80px;
+  }
+  .info-list ul li:nth-child(2) {
+    position: absolute;
+    top: 108px;
+    right: -73px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .hero-img img {
+    width: 225px;
+    border-radius: 600px;
+    border: 5px solid;
+  }
+  .info-list ul li {
+    margin-bottom: 20px;
+    background-color: #0b3b3d;
+    color: #fff;
+    padding: 6px;
+    border-radius: 20px;
+    font-size: 12px;
+    border: 1px solid;
+  }
+  .title-part {
+    top: -37px;
+    width: 100%;
+    padding: 2px;
+
+    color: #fff;
+    text-align: center;
+  }
+  .hero-title {
+    padding-left: 3px;
+    font-size: 14px;
+    text-decoration: underline;
+    text-decoration-color: #cb2d6f;
+  }
+  .subtitle p {
+    font-family: "Unbounded", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 4px;
+  }
+}
